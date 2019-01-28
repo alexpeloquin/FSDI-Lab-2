@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Q's Homes for Sale</title>
+    <link href="Style.css" rel="stylesheet" 
+</head> 
+
+<body>
+    <h1>
+        Welcome to Q's Colorado Homes for Sale
+    </h1>
+
+    <h2>
+        Q's Homes for Sale is the premerier location for homes to make your dream home! We offer a wide variety of real estate options for any type of buyer!
+        <br>
+        Below please find our always up to date listing of our best properties available
+    </h2>
+
+    <h3>
+        "Aliquam vel est id purus condimentum auctor. Nunc gravida molestie urna, consequat vulputate tellus imperdiet luctus."
+        - J.D. Martinez (Aurora, Colorado) 
+        <br> <br>
+        "Maecenas eu convallis neque, vitae placerat nisi. Ut lacinia hendrerit mollis. Nullam at eleifend tortor, ac hendrerit tellus."
+        - Mookie Betts (Denver, Colorado) 
+        <br> <br>
+        "Aenean nec pulvinar arcu. Etiam odio lacus, rutrum sit amet risus et, scelerisque porta felis. Nam imperdiet felis in arcu rutrum eleifend."
+        - Chris Sale (Westminster, Colorado) 
+        <br> <br>
+    </h3>
+
+    <table>
+
+            <tr>
+                <th>Photo 1</th>
+                <th>Photo 2</th>
+                <th>Photo 3</th>
+                <th>Address</th>
+                <th>Property Details</th>
+                <th>Asking Price</th>
+                <th>Add to Cart</th>
+            </tr>
+
+        <tbody>
+            <tr>
+                <td><img class="img" src="Prp11.jpg" width=100></td>
+                <td><img class="img" src="Prp12.jpg" width=100></td>
+                <td><img class="img" src="Prp13.jpg" width=100></td>
+                <td>21567 Benson Park Drive Denver, Co 80014 </td>
+                <td><ul><li>3 Bedrooms</li><li>2 Bathrooms</li><li>1,920 sq ft</li></ul></td>
+                <td>$350,000</td>
+                <td><button>Add</button></td>
+            </tr>
+
+            <tr>
+                <td><img class="img" src="Prp21.jpg" width=100></td>
+                <td><img class="img" src="Prp22.jpg" width=100></td>
+                <td><img class="img" src="Prp23.jpg" width=100></td>
+                <td>3542 Cholla Lane Gilbert, Co 83314 </td>
+                <td><ul><li>4 Bedrooms</li><li>2.5 Bathrooms</li><li>1,920 sq ft</li></ul></td>
+                <td>$290,000</td>
+                <td><button>Add</button></td>
+            </tr>
+            <tr>
+                <td><img class="img" src="Prp31.jpg" width=100></td>
+                <td><img class="img" src="Prp32.jpg" width=100></td>
+                <td><img class="img" src="Prp33.jpg" width=100></td>
+                <td>1492 South Regal Road Westminster, Co 82014 </td>
+                <td><ul><li>2 Bedrooms</li><li>1.5 Bathrooms</li><li>1,920 sq ft</li></ul></td>
+                <td>$420,000</td>
+                <td><button>Add</button></td>
+            </tr>
+
+        </tbody>
+
+
+
+    </table>
+
+    <br>
+    <br>
+
+        <div class="formleft">
+    <form action="register.php" method="GET">
+        <h3>If you are interested in properties above or prospective buyer, please submit form below and one of our agents will contact you with excellent oppurtunities that fit your needs!</h3>
+        <h5>Full Name, Phone Number and Description of dream property required for form submission </h5>
+        <label>First:</label>
+        <input type="text" name="first" placeholder= "First" required >
+        <label>Last:</label>
+        <input type="text" name="first" placeholder="Last" required> 
+        <br>
+        <br>
+        <label>Phone Number:</label>
+        <input type="number" name="title" placeholder= "(888) 555-1234" required>
+        <br>
+        <br>
+        <label>Description:</label>
+        <br>
+        <textarea name="description" placeholder="Please provide description of your dream property" cols="58" rows="4" required></textarea>
+        <br>
+        <hr>
+        <br>
+        <label>Price Low $</label>
+        <input type="number" name="pricelow">
+        <label>Price High $</label>
+        <input type="number" name="pricehigh">
+        <br>
+        <label>Bedrooms Min </label>
+        <input type="number" name="bedlow">
+        <label>Bedrooms Max </label>
+        <input type="number" name="bedhigh">
+        <br>
+        <label>Bathrooms Min </label>
+        <input type="number" name="pricelow">
+        <label>Bathrooms Max </label>
+        <input type="number" name="pricelow">
+        <br>
+        <br>
+        <label>Current Home for Sale?</label>
+        <input type="radio" value="yes" name="taxes"> yes
+        <input type="radio" value="no" name="taxes"> no
+        <br>
+        <br>
+        <label>Types of Homes</label>
+        <br>
+        <input type="checkbox" value="Single Family" name="Single Family"> Single Family
+        <input type="checkbox" value="Multi Family" name="Multi Family"> Multi Family 
+        <input type="checkbox" value="Apartment" name="Apartment"> Apartment
+        <input type="checkbox" value="Tree House" name="Tree House">  Tree House
+        <input type="checkbox" value="Mansion" name="Mansion"> Mansion
+        <input type="checkbox" value="Mobile Home" name="Mobile Home"> Mobile Home
+        <input type="checkbox" value="Land Only" name="Land Only"> Land Only 
+        
+        <br>
+        <br>
+
+        <label>Most important Criteria</label>
+        <select name="Mostimportant">
+            <option value="1">Price</option>
+            <option value="2">Size</option>
+            <option value="3">Location</option>
+            <option value="4">Move-in Date</option>
+        </select>
+        
+
+        <label>Least important Criteria</label>
+        <select name="Leastimportant">
+            <option value="1">Price</option>
+            <option value="2">Size</option>
+            <option value="3">Location</option>
+            <option value="4">Move-in Date</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Desired Move in Date</label>
+        <input type="date" name="expiration" >
+
+        <input type="submit" class="submit" value="Submit">
+        <input type="reset" class="reset" value="Clear form">
+    </div>
+    
+    <div class="advright"> 
+    <h4>Place your Advertisment here!</h4>   
+    <img class="adv" src="avd.jpg">
+    
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
